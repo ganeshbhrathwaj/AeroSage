@@ -30,8 +30,8 @@ def transfer_file_from_github_to_s3(github_url, bucket_name, s3_file_name):
 
 
 
-os.environ['AWS_ACCESS_KEY_ID'] = 'AKIAZQ3DTBN5QQIJDIYI'
-os.environ['AWS_SECRET_ACCESS_KEY'] = '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'
+os.environ['AWS_ACCESS_KEY_ID'] = 'KEY'
+os.environ['AWS_SECRET_ACCESS_KEY'] = 'SECRET_KEY'
 os.environ['AWS_DEFAULT_REGION'] = 'us-east-1' 
 training_script ="s3://churn-airflow/python-scripts/churn_training.py"
 yml_loc = r"/opt/airflow/dags/scripts"
